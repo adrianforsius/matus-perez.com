@@ -113,7 +113,7 @@ params:
     # image: "/images/avataaars.jpeg" # worker.svg
     image: "/images/matus.png" # worker.svg
     # option to specify the width of the image in the homepage
-    imageWidth: 300px
+    imageWidth: 500px
 
   # footer options
   footer:
