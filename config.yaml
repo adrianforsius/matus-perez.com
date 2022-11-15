@@ -1,6 +1,6 @@
-baseURL: https://example.com
+baseURL: https://matus-perez.com
 languageCode: en-us
-title: Personal website and blog
+title: Sito web de Agentes de Seguro Matus Perez
 theme: hugo-refresh
 # theme: ../..
 
@@ -12,7 +12,7 @@ theme: hugo-refresh
 # assetDir: "static"
 
 # Option to specify the default language of the theme
-# I.e., the landing language of your root 
+# I.e., the landing language of your root
 DefaultContentLanguage: en
 
 ## Option to disable additional language in your site.
@@ -25,7 +25,7 @@ blackfriday:
   hrefTargetBlank: true
 
 Taxonomies:
-  tag: "tags"
+  tag: "categorias"
 
 # Supported fonts are:
 # https://fonts.google.com/
@@ -35,9 +35,9 @@ Taxonomies:
 # https://bulkitv2.cssninja.io/_components-icons-fa.html
 
 params:
-  # parameter used to specify the number of article in each row 
+  # parameter used to specify the number of article in each row
   # for the summary pages, the possible options are: 2, 3, 4, 5 or 6
-  articlesPerRow: 3 
+  articlesPerRow: 3
 
   # option to specify the favicon image of the site
   # the path is relative to the folder "assetDir" of this configuration
@@ -52,14 +52,14 @@ params:
   # parameter used to specify if you want to calculate the js integrity
   jsIntegrity: true
   # option to specify the main colour of the theme
-  mainColour: "#F39200"
+  mainColour: "#80846D"
 
   # summary options
   summary:
     # option to specify the default image in the summary list
     # the starting folder is configure in "assetDir" of this file
     defaultImage : "/images/default_summary.jpg"
-  
+
   # loading options
   loading:
     # option to specify the loading image
@@ -69,7 +69,7 @@ params:
   # main pages options
   mainPage:
     # option to specify the main font of the theme
-    fontFamily: "Open Sans" 
+    fontFamily: "Open Sans"
 
   # sidebar options
   sidebar:
@@ -85,7 +85,7 @@ params:
     fontFamily: "Open Sans"
     # option to show the little logos on the side of the navbar items
     showIcons: false
-    
+
   # 404 page options
   pagNotFound:
     # option to specify the main picture of the sidebar
@@ -102,17 +102,18 @@ params:
   homepage:
     # this options let you specify if you want a link to the homepage
     # it can be: "none", "menu", "footer" or "menu+footer"
-    # linkPosition: "footer" 
+    # linkPosition: "footer"
     # this options let you specify the text of the link to the homepage
-    # linkText: "Homepage"  
+    # linkText: "Homepage"
     # option to specify the title in the homepage
-    title: Julia The White
+    title: Matus Perez Agentes de Seguro
     # option to specify the subtitle in the homepage
-    subtitle: Personal website and blog
+    subtitle:
     # option to specify image in the homepage
-    image: "/images/avataaars.png" # worker.svg 
+    # image: "/images/avataaars.jpeg" # worker.svg
+    image: "/images/matus.png" # worker.svg
     # option to specify the width of the image in the homepage
-    imageWidth: 500px
+    imageWidth: 300px
 
   # footer options
   footer:
@@ -120,95 +121,95 @@ params:
     # the starting folder is configure in "assetDir" of this file
     logo: "/images/refresh-square.svg"
     # option to specify your contact email in the footer
-    email: 
-      link: name.surname@domain.com
-      title: My Email
+    email:
+      link: seguros@matus-perez.com
+      title: Email
     # option to specify your linkedin profile in the footer
-    linkedin: 
+    linkedin:
       link: your_linkedin_profile
       title: My LinkedIn
-    # option to specify your facebook account in the footer; 
+    # option to specify your facebook account in the footer;
     # **uncomment** the lines below to show in footer
-    # facebook: 
+    # facebook:
     #   link: your.username
     #   title: Facebook
-    # option to specify your github account in the footer; 
+    # option to specify your github account in the footer;
     # **uncomment** the below lines to show in footer
-    # github: 
+    # github:
     #   link: username
     #   title: Github
-    # option to specify your gitlab account in the footer; 
+    # option to specify your gitlab account in the footer;
     # **uncomment** the below lines to show in footer
-    # gitlab: 
+    # gitlab:
     #   link: username
     #   title: Gitlab
     # option to specify your twitter username in the footer;
     # **uncomment** the below lines to show in footer
-    # twitter: 
+    # twitter:
     #    link: username
     #    title: Twitter
-    # option to specify your instagram username in the footer; 
+    # option to specify your instagram username in the footer;
     # **uncomment** the below lines to show in footer
-    # instagram: 
+    # instagram:
     #    link: username
     #    title: Instagram
-    # option to specify your telegram username in the footer; 
+    # option to specify your telegram username in the footer;
     # **uncomment** the below lines to show in footer
-    # telegram: 
+    # telegram:
     #    link: username
     #    title: Telegram
     # option to specify the copyright in the footer
-    copyright: Julia The White - 2021
+    copyright: Matus Perez - 2022
 
 ###################################################################
 ################## multilanguage support options ##################
 ###################################################################
 languages:
+  es:
+    languageName:       Espanol
+    weight:             1
   en:
     languageName:       English
-    weight:             1
-  ru:
-    languageName:       Russian
     weight:             2
-    # When Specifying different parameters for a different language 
+    # When Specifying different parameters for a different language
     # you need to specify all the mandatory sub-parameters as well.
     # E.g.: if you specify the "homepage" parameter then you need to
-    #       specify all mandatory sub-parameters, e.g.: "title". 
+    #       specify all mandatory sub-parameters, e.g.: "title".
     # See example below:
     params:
       homepage:
-        title: Julia белая краска
-        subtitle: Персональный сайт и блог
-        image: "/images/avataaars.png" # worker.svg 
+        title: Matus Perez Insurance Company
+        subtitle:
+        image: "/images/matus.png" # worker.svg
         imageWidth: 500px
-      
+
       # Some sub-parameters of the "footer" parameter
-      # can be omitted because the code allows for them to be 
+      # can be omitted because the code allows for them to be
       # missed but they will treated as they do not exist,
       # i.e., the parameters of the default language
       # won't be inherited.
       footer:
         logo: "/images/refresh-square.svg"
-        email: 
-          link: имя.фамилия@домен.com
-          title: Эл. адрес
-        linkedin: 
+        email:
+          link: seguros@matus-perez.com
+          title: Email
+        linkedin:
           link: your_linkedin_profile
           title: LinkedIn
-        # facebook: 
+        # facebook:
         #   link: your.username
-        #   title: Facebook 
-        # twitter: 
+        #   title: Facebook
+        # twitter:
         #   link: username
         #   title: Twitter
-        # instagram: 
+        # instagram:
         #   link: username
         #   title: Instagram
-        # github: 
+        # github:
         #   link: username
         #   title: Github
-        # gitlab: 
+        # gitlab:
         #   link: username
         #   title: Gitlab
-        copyright: Julia белая краска - 2020
-      
+        copyright: Matus Perez - 2022
+
