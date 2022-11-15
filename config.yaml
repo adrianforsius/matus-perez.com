@@ -1,5 +1,5 @@
 baseURL: https://matus-perez.com
-languageCode: en-us
+languageCode: es-es
 title: Sito web de Agentes de Seguro Matus Perez
 theme: hugo-refresh
 # theme: ../..
@@ -13,7 +13,7 @@ assetDir: "static"
 
 # Option to specify the default language of the theme
 # I.e., the landing language of your root
-DefaultContentLanguage: en
+DefaultContentLanguage: es
 
 ## Option to disable additional language in your site.
 # disableLanguages: ["ru"]
@@ -126,8 +126,8 @@ params:
       title: Email
     # option to specify your linkedin profile in the footer
     linkedin:
-      link: your_linkedin_profile
-      title: My LinkedIn
+      link: https://www.linkedin.com/in/luis-matus-15a37147/
+      title: LinkedIn
     # option to specify your facebook account in the footer;
     # **uncomment** the lines below to show in footer
     # facebook:
@@ -166,7 +166,7 @@ params:
 ###################################################################
 languages:
   es:
-    languageName:       Espanol
+    languageName:       Español
     weight:             1
   en:
     languageName:       English
@@ -194,7 +194,7 @@ languages:
           link: seguros@matus-perez.com
           title: Email
         linkedin:
-          link: your_linkedin_profile
+          link: https://www.linkedin.com/in/luis-matus-15a37147/
           title: LinkedIn
         # facebook:
         #   link: your.username
