@@ -1,7 +1,9 @@
-baseURL: https://adrianforsius.github.io/
+baseURL: https://matus-perez.com
 languageCode: es-es
 title: Sito web de Agentes de Seguro Matus Perez
 theme: hugo-refresh
+relativeURLs: true
+canonifyURLs: true
 # theme: ../..
 
 #########################################
