@@ -126,7 +126,7 @@ params:
       title: Email
     # option to specify your linkedin profile in the footer
     linkedin:
-      link: https://www.linkedin.com/in/luis-matus-15a37147/
+      link: in/luis-matus-15a37147/
       title: LinkedIn
     # option to specify your facebook account in the footer;
     # **uncomment** the lines below to show in footer
@@ -192,9 +192,9 @@ languages:
         logo: "/images/refresh-square.svg"
         email:
           link: seguros@matus-perez.com
-          title: Email
+          title: Correo
         linkedin:
-          link: https://www.linkedin.com/in/luis-matus-15a37147/
+          link: in/luis-matus-15a37147/
           title: LinkedIn
         # facebook:
         #   link: your.username
