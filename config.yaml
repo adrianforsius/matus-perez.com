@@ -35,16 +35,6 @@ Taxonomies:
 # https://bulkitv2.cssninja.io/_components-icons-fa.html
 #
 
-#title: "My Awesome Title"
-#date: 2019-06-03T21:51:13+01:00
-#draft: false
-#hideLastModified: true
-#summaryImage: "images/system.jpg"
-#keepImageRatio: true
-#tags: ["Tag1", "tag2", "tag 3"]
-#summary: "This is a custom summary for my article"
-#showInMenu: true
-
 params:
   # parameter used to specify the number of article in each row
   # for the summary pages, the possible options are: 2, 3, 4, 5 or 6
@@ -113,16 +103,17 @@ params:
   homepage:
     # this options let you specify if you want a link to the homepage
     # it can be: "none", "menu", "footer" or "menu+footer"
-    # linkPosition: "footer"
+    linkPosition: "menu"
     # this options let you specify the text of the link to the homepage
-    # linkText: "Homepage"
+    linkText: "Home"
     # option to specify the title in the homepage
     title: Matus Perez Agentes de Seguro
     # option to specify the subtitle in the homepage
     subtitle:
     # option to specify image in the homepage
     # image: "/images/avataaars.jpeg" # worker.svg
-    image: "/images/matus.png" # worker.svg
+    # image: "/images/luis-avatar.svg" # worker.svg
+    image: "/images/luis-vero-transparent.png" # worker.svg
     # option to specify the width of the image in the homepage
     imageWidth: 500px
 
@@ -191,7 +182,7 @@ languages:
       homepage:
         title: Matus Perez Insurance Company
         subtitle:
-        image: "/images/matus.png" # worker.svg
+        image: "/images/luis-vero-transparent.png" # worker.svg
         imageWidth: 500px
 
       # Some sub-parameters of the "footer" parameter
